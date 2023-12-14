@@ -2,7 +2,11 @@
   "name": "hello-world-web5",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:biggaji/hello-world-web5.git",
   "author": "Tobi Ajibade <tobihajibade@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@web5/api": "^0.8.3"
+  }
 }
