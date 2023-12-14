@@ -8,5 +8,14 @@
   "license": "MIT",
   "dependencies": {
     "@web5/api": "^0.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc -p . -w",
+    "exec": "node index.js"
   }
 }
